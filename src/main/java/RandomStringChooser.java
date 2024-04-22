@@ -11,7 +11,7 @@ private ArrayList<String> a;
     
   }
 
-  public getNext(String x)
+  public String getNext()
   {
     if(words.size() == 0){
       return "NONE";
