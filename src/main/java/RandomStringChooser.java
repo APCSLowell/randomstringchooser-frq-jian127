@@ -13,10 +13,10 @@ private ArrayList<String> a;
 
   public String getNext()
   {
-    if(words.size() == 0){
+    if(a.size() == 0){
       return "NONE";
     }
-    else return words.remove((int)Math.random()*a.size());
+    else return a.remove((int)Math.random()*a.size());
   }
   
   //Heads up! 
