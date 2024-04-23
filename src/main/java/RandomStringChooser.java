@@ -6,7 +6,7 @@ private ArrayList<String> a;
   {
      a = new ArrayList<String>();
     for(int i = 0; i < a.size(); i++){
-      a.add(i);
+      a.add(a.get(i));
     }
     
   }
